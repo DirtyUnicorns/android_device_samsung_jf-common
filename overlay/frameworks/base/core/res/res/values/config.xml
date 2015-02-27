@@ -75,7 +75,6 @@
         <item>1</item>
     </integer-array>
 
-
     <!-- Minimum screen brightness allowed by the power manager. -->
     <integer name="config_screenBrightnessDim">10</integer>
 
@@ -107,13 +106,16 @@
         <item>"wifi_p2p,13,1,0,-1,true"</item>
     </string-array>
 
-    <!-- Screen brightness when dozing. -->
-    <integer name="config_screenBrightnessDoze">25</integer>
-
-    <!-- Dream of notifications -->
+    <!-- Ambient Display : Dream of Notifications -->
     <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
+
+    <!-- Screen brightness when dozing. -->
+    <integer name="config_screenBrightnessDoze">10</integer>
     <bool name="config_dozeAfterScreenOff">true</bool>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
+
+    <!-- Doze: force using accelerometer as pick up sensor -->
+    <bool name="config_dozeUseAccelerometer">true</bool>
 
     <!-- An Array of "[ConnectivityManager connectionType],
          [# simultaneous connection types]"  -->
