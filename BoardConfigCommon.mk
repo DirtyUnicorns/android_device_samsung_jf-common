@@ -98,6 +98,7 @@ TARGET_USES_LOGD := false
 
 # NFC
 BOARD_NFC_HAL_SUFFIX := msm8960
+TARGET_USES_OS_NFC := true
 
 # Partitions
 TARGET_USERIMAGES_USE_EXT4 := true
