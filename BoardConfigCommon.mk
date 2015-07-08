@@ -115,6 +115,9 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 # Power
 TARGET_POWERHAL_VARIANT := qcom
 
+# Prebuilt Chromium Flag
+USE_PREBUILT_CHROMIUM := true
+
 # Recovery
 TW_THEME := portrait_hdpi
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
